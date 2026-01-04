@@ -1,0 +1,22 @@
+/* Show hover dropdown on mobile when hovered */
+.menu-wrapper:hover .hover-menu {
+  display: flex !important;
+}
+
+/* Default hidden dropdown */
+.hover-menu {
+  min-width: 150px;
+  z-index: 1000;
+}
+#menu1{
+    color: rgb(57, 109, 109) !important;
+}
+/* .nav-link{
+  background-color: rgb(126, 148, 167) !important;
+} */
+
+/* Custom hamburger style */
+.custom-toggler {
+  border: none;
+  background-color: transparent;
+}
